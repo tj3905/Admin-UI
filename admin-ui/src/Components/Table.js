@@ -50,11 +50,13 @@ const Table = ({
           <tr>
             <th>
               <input
+                className="check"
                 type="checkbox"
                 checked={AllSelect}
                 onChange={handleSelectAll}
               />
             </th>
+            <th></th>
             <th></th>
             <th></th>
             <th></th>
@@ -73,11 +75,13 @@ const Table = ({
             >
               <td>
                 <input
+                  className="check"
                   type="checkbox"
                   checked={lineSelected(user)}
                   onChange={(event) => handleRowSelect(event, user)}
                 />
               </td>
+              <td></td>
               <td></td>
               <td></td>
               <td></td>

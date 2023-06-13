@@ -16,7 +16,9 @@
   border-bottom: 1px solid rgb(236, 234, 234);
   /* margin: 0 50px 0 50px; */
 }
-
+.check {
+  transform: scale(0.65);
+}
 .user-tab th {
   /* background-color: #f2f2f2; */
   font-weight: bold;
