@@ -1,0 +1,17 @@
+.search-div {
+  margin: 0 30px;
+}
+input {
+  margin-bottom: 10px;
+  width: 99%;
+  height: 25px;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 4px;
+  outline: none;
+}
+input::placeholder {
+  color: rgb(212, 211, 211);
+}
+input:focus {
+  border-color: rgb(196, 193, 193);
+}
